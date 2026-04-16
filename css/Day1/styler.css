@@ -1,0 +1,103 @@
+/* tag based selection */
+
+h1{
+    background-image: pink;     
+}
+ul{
+    background-color: blueviolet;
+}
+
+/*  id based selection */
+/* or hashed based selection 
+ */
+
+#first{
+    background-color: pink;
+    color: tomato;
+}
+
+/* class based selction */
+
+.third {
+    background-color: green;
+}
+
+.fourth{
+    background-color: blueviolet;
+}
+
+/* ham ek hi element ko class aur id dono de sakte hai  */
+
+/* group based selection */
+
+h1 , .fourth, #first{
+    background-color: aqua;
+}
+
+h1{
+    background-color: rgb(19, 94, 94);
+    background-color: rgb(31, 99, 99, 0.879);
+    /*  alpha 4th vaqlue jo batata hai tranc perency ke bare me  */
+}
+
+/*  RGB jo color hai uske combination se aap kisi bhi color ko generate kar ssakte hai  (0-255)*/
+/* one number contains 8 bit, three number contains 24 bit = 3 bytes  11111111 = 255, 00000000= 0  */
+
+h2{
+    background-color: hsl(110, 50%, 50%);
+    background-color: hsla(110, 50%, 50%, 0.8);
+}
+
+
+/* hue: sat 0-360  0-10 30% */
+
+h1{
+    background-color: #437a25;
+    /*  inko darshane keliye hame 4 bit ki aavasyakta hoti hai  */
+}
+
+/*  Pahli do val;ue red ko dusri do value green ko aur teesri do value green ko dikhati hai . */
+
+h1{
+    font-size: 20px;
+
+    /* px = picture element  */
+    /* 1 px is equal to 1/96 of inch,   google galat bata raha hai ye galat hai   */
+    /*  hamari jo image hoti hai uski sabse smallest unit ko pixel kaha jata hai  */
+}
+
+li{
+    font-size: 1em;
+    /* em kahta hai jo mera size hoga vo mere parent ke multiple me hoga 1em, 2em, 3em etc */
+}
+
+h2{
+    font-size: 2rem;
+    /* jo mera size hoga vo twice hoga jo mera root element hai  html , agar ht,ml vale ka font size 40 px kr du  to iska size ho jayega 80 px , root ka parent ka nhi  */
+}
+
+h2{
+    font-size: 1vw;
+
+    /* view pert width ka matlab hai iski aap width ko dekho , width 1% ke barabar hoga  */
+}
+
+li{
+    font-size: 3vh;
+    /*  jo apne desktop visible hai uski height ka 3 persent hoga  */
+}
+
+li {
+    font-size: 50%;
+    /*  ye uske parent ke base pe depend karta hai, agar parent unordered list ka hieght 50 px hoga to iska 25px ho jayega  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+li{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
