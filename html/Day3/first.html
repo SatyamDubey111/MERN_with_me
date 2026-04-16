@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Personal Details</h2>
+    <p>Please fill out the form</p>
+
+    <hr>
+
+    <form action="">
+
+        <label for="name">First name: </label>
+        <input type="text" name="name" id="name" placeholder="e.g Arjun" required>
+
+     <br><br>
+        <label for="surname">Last name: </label>
+        <input type="text" name="surname" id="surname" placeholder="e.g Dubey">
+
+          <br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob">
+
+        <br><br>
+
+        <h3>Gender:</h3>
+        <label for="">male</label>
+        <input type="radio" name="gender">
+        <br>
+
+          <label for="">male</label>
+        <input type="radio" name="gender" value="male">
+        <br>
+
+          <label for="">other</label>
+        <input type="radio" name="gender" value="other">
+        <br><br>
+
+        <h3>Upload your photo</h3>
+
+        <label for="file">Recent pic: </label>
+        <input type="file" name="file" id="file" value="photo">
+
+        <hr>
+
+        <h2>Contact information</h2>
+
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+         <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+
+        <br><br>
+
+        <label for="address">Mailing address</label>
+        <br>
+        <textarea name="address" id="address" rows="10" cols="10"></textarea>
+
+        <hr>
+
+        <h2>Academic information</h2>
+        <!-- for drop down we use seleck keyworrd -->
+         
+        <label for="course">Select your course</label>
+        <select name="course" id="course">
+            <option value="cse">CSE</option>
+            <option value="me">ME</option>
+            <option value="ce">CE</option>
+        </select>
+
+        <hr>
+        <h3>Extracurricular Activities</h3>
+
+        <label for="Sports">Sports</label>
+        <input type="checkbox" name="interest" id="Sports" value="Sports">
+        <br><br>
+
+         <label for="Music">Music</label>
+        <input type="checkbox" name="interest" id="Music">
+        <br><br>
+
+         <label for="Technology">Technology</label>
+        <input type="checkbox" name="interest" id="Technology">
+        <br><br>
+
+         <label for="Voluntering">Voluntering</label>
+        <input type="checkbox" name="interest">
+        <br><br>
+
+        <hr>
+
+        <h2>Create Your Account</h2>
+
+        
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass">
+        <br><br>
+
+        <label for="secu">security answer</label>
+        <input type="text" name="security" id="secu">
+
+        <hr>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear form</button>
+    </form>
+</body>
+</html>
