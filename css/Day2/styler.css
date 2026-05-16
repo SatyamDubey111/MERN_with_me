@@ -1,0 +1,88 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+span{
+    color: blue;
+    background-color: rgb(141, 141, 204);
+}
+
+span .hi{
+    color: pink
+    
+}
+
+h1{
+    background-color: aqua;
+}
+
+/* block level element hamesha nayi line se start hote hai jbki inline element vahi se start hoti hai jaha se dusri end hui hai  */
+span{
+    height: 30px;
+    padding: 2px;
+    margin: 20px;
+    padding-right: 30px;
+}
+
+/* agar kisi ko block level se inline banana hai to bs use likhna hai sdisplay inline  */
+
+/* display inline block use karne se ab uske bagal me koi aur naya element aa sakta hai  */
+
+/* box sizing boder box karne se usme aapka  content bhi include hoga padding bhi include hoga aur border bhi include hoga */
+
+/* box sizing content karne se hight widthsame hi rahe*/
+
+
+
+
+
+/* span{
+    color: blue;
+} */
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: content-box;
+    /* padding: 40px;
+    margin: 20px; */
+    /* display: inline; */
+   /* display: inline-block; */
+    
+}
+
+h2{
+    background-color: brown;
+    /* display: inline; */
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+span{
+    background-color: pink;
+    height: 200px;
+    width: 300px;
+    /* padding: 20px;
+    margin: 20px; */
+    margin-bottom: 150px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    /* display: block; */
+
+}
