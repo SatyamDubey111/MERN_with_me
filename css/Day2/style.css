@@ -2,4 +2,55 @@ h1 {
     background-color: orange;
     height: 300px;
     width: 300px;
+
+    /* 
+    border-width:10px;
+    border-style: solid;
+    border-color: green;
+    */
+    
+    /* border: 10px solid green; */
+    border:  solid  10px green;
+
+    padding: 10px 10px;
+    /* padding charo taraf apply hota hai (andar) */
+    
+    margin: 30px;
+    /* margin charo tarf (bahar) */
+
+    border-top: 10px solid black;
+    padding-right: 30px;
+
+    padding: 10px 20px 30px 40px;
+
+    padding:   20px 40px ;
+
+    margin: 10px 20px 30px 40px;
+
+    border-radius: 50px;
+    
 }
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+p{
+    background-color: aqua;
+}
+/* height aur width hamesha content ke upar aataha hai */
+
+
+/* inline element
+1.anchor tag
+2.span tag
+3.etc
+
+vs 
+block element
+1. h1 h2 h3 
+2. p
+3 etc
+
+*/

@@ -1,0 +1,56 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h2{
+    background-color: orange;
+
+    position: relative;
+
+    left: 100px;
+    /* top: 100px; */
+}
+
+/* static by deafalt rahti hai total 5 position hoti hai  */
+h3{
+    background-color: pink;
+    position: fixed;
+
+    top: 0px;
+
+    left: 50px;
+}
+
+/*  relative kahta hai maine bhale hi apniposition ko chod di ho koi dusra vaha nhi aa sakta, aur fixed kahta hai ab maine apni position ko chod di hai ab yaha koi bi aa sakta hai   */
+
+
+h4{
+    background-color: brown;
+
+    position: sticky;
+
+    top: 10px;
+/*  jaise hi mera top 0 px ho jaye to vahi mujhe stick kr dena  */
+}
+
+p{
+    background-color: chartreuse;
+
+    position: absolute;
+
+    left: 50px;
+
+    top: 0px;
+
+    margin: 0px;
+    z-index: 10;
+
+    /*  absolute bhi apni jagah ko chod detahai baki ke jo element hai vo ghus jayenge , sirf relative ki jagah koi nhi le sakta hai  */
+
+    /* position ko absulute mark mark karne pr ye apne parent/anecsetor ke hisab se kaam karega agar iske kisi parent me ko position set nhi hogi to vo windows ke according hi kaam karega  */
+}
+
+/* overide se bachne ke liye ham z-index ka prayog karte hai */
+
+/*  by default z-index ki value zero hoti hai jis z-ndex ki value jada hogi vo override kr jayega  */
