@@ -1,0 +1,53 @@
+.container{
+    height: 400px;
+    width: 100px;
+    display: flex;
+    background-color: aliceblue;
+    gap: 5%;
+
+    /* parent ka kaam hai apne children ke layout ko decide karna flex ne block level element ko inline level me kar diya */
+
+/* flex direction by default row hoti hai */
+   /* flex-direction: column; */
+   /* flex-direction: column-reverse; */
+   flex-direction: row;
+   justify-content: center;
+   /* start, end, space arround, space between, space evenly  */
+   /* justify content hamesha main axis ke arround kaam karega  */ 
+   /* jab row rahega to row ke arround center honge jab column rahega to column ke arround centre homge (jo (row/column rahega usi ke according vo main axis ban jayega  */
+
+   align-items: center;
+   /* ye jo align items hai vo hamesha cross axis pe kaam karega  */
+
+   /* flex-wrap: wrap;  */
+   /* default me hamesha no wrap me rahta hai(uses for responsive) not 100% */
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+    /* flex-basis: 200px;  is ko jada priority di jati hai , main axis ke around  */
+}
+.second{
+    background-color: green;
+    flex-grow: 2;
+}
+.third{
+    background-color: red;
+    flex-grow: 3;
+}
+.fourth{
+    background-color: rgb(84, 163, 84);
+    align-self: flex-start;
+    /* align-self individual khel sakta hai  */
+
+}

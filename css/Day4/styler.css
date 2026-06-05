@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(215, 221, 226);
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    /* 100vh view port height dene se kya hoga ki body bhi pura jagah legi  */
+
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 60px;
+    /* position: absolute; */
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    /* padding: 60px ; */
+    margin-bottom: 20px;
+    color:blue;
+
+}
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+

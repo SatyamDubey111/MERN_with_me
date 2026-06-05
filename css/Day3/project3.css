@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: hsl(0, 91%, 36%);
+    position: relative;
+}
+.blue{
+    background-color: rgb(15, 15, 102);
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 25%;
+}
+.circle{
+
+    background-color: white;
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    top: 30%;
+    left: 100px;
+    border-radius: 50%;
+
+}
