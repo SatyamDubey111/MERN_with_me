@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 5px;
+}
+
+.box{
+    background-color: rgb(65, 65, 179);
+}
