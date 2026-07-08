@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box{
+    background-color: aqua;
+}
+
+.first{
+    grid-row: 1/4;
+}
+.second{
+    grid-column: 2/4;
+}
+
+.sixth{
+    grid-row: 2/4;
+
+    /* ye dusri jagah khasak jayega to use batana padega kivo kis column ka partt hai  */
+
+    grid-column: 4/5;
+
+    /* grid column nhi likhne pr usse jaha space milegi vo vahi space le lega */
+}

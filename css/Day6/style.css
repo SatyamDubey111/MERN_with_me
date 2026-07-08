@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+/* ab mai ye chah raha hu jab mai chota karte
+karte karte 600 px se niche aa jau to iska background color change ho jaye  aur iski hieght width bhi thoda chota ho jaye   */
+
+@media screen and (max-width:600px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        font-size: 30px;
+        padding: 50px;
+    }
+}
