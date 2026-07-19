@@ -14,12 +14,43 @@
 /* ab mai ye chah raha hu jab mai chota karte
 karte karte 600 px se niche aa jau to iska background color change ho jaye  aur iski hieght width bhi thoda chota ho jaye   */
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) { */
+    /* screen ka matlab device ka total screen */
+    /* .container{ */
+        /* height: 300px; */
+        /* width: 300px; */
+        /* background-color: pink; */
+        /* font-size: 30px; */
+
+        /* container me jo condition likhi hai uske upar ye over ride kar raha hai */
+        
+    /* } */
+/* } */
+/* screen ke jagah  print ka use tab hota hai jab koi chiz hame print karani hai aur vo print karane ke baad kaise dikhe gi   */
+
+
+/* aise hi yaha pr ek aur aata hai min width ka concept */
+
+/* @media screen  and (min-width:800px){
+
     .container{
-        height: 300px;
-        width: 300px;
+        background-color: orange;
+        font-size: 60px;
+    }
+    
+} */
+
+
+@media screen and (max-width:900px){
+    .container{
+        background-color: green;
+        font-size: 40px;
+    }
+}
+
+@media screen and  (max-width:600px) {
+    .container{
         background-color: pink;
-        font-size: 30px;
-        padding: 50px;
+        font-size: 40px;
     }
 }

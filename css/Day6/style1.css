@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+@media screen and (min-width:600px) {
+    .container{
+        background-color: orange;
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container{
+        background-color: green;
+        font-size: 80px;
+    }
+}
+
+/* yaha pr default configration mobile ke liye , tablet , laptop*/ 
+
+/* ye mobile first approach hai aur real world me ham mobile first aproach ka hi jada use karte hai  */
