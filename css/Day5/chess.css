@@ -18,7 +18,7 @@ body{
 
     grid-template-rows: repeat(8,1fr);
     grid-template-columns: repeat(8,1fr);
-    background-color: pink;
+    /* background-color: pink; */
 }
 .white{
     background-color: whitesmoke;
