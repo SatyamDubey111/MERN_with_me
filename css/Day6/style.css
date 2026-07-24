@@ -48,7 +48,7 @@ karte karte 600 px se niche aa jau to iska background color change ho jaye  aur 
     }
 }
 
-@media screen and  (max-width:600px) {
+@media screen and  (max-width:500px) {
     .container{
         background-color: pink;
         font-size: 40px;
