@@ -34,7 +34,7 @@ p{
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-delay: 0s;
-    animation-timing-function: ;
+    /* animation-timing-function: ; */
 }
 
 @keyframes moving {

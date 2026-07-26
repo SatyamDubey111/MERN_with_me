@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap dene se dono box alag ho jayenge */
+    gap: 20px;
+    perspective: 800px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 50%;
+
+    /* ham direct yaha se bhi inki positioning  ko bhi define kaar sakte hain */
+    /* transform: translateY(-300px); */
+    transform: translate(200px, 300px);
+
+    /* ham inko rotate bhi kar sakte hai */
+    transform: rotate(300deg);
+
+    /* ek aur property aati hai hamare skew naam ki  */
+    transform: skew(300deg);
+
+    /* transition-property: background-color; */
+    /* transition-property: height; */
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;   */
+     /*ease in, linear, ease in out, transiton delay  */
+     /* short hand propperty */
+     transition: all 3s ease-in 2s;
+     font-size: 50px;
+     color: white;
+     animation-name: moving;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     /* animation hame linear hi chahiye to usko ham kuch de nhi rahe hai */
+     /* agarham linear bana denge to ye ruke ga nhi */
+     animation-timing-function: linear;
+}
+
+/* rotation hota rahe (ghumta rahe) to uske liye hm kiska use karte hai animation ka ok */
+@keyframes moving {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.box:hover{
+
+    /* background-color:purple;
+    /* height: 300px; */
+    width: 350px; 
+
+    /* transform: scaleY(2); */
+    
+    /* pahle to hamne sirf 2 diya, uske baad y direction */
+    /* scaling kahta hai ki aapki height auw width dono ko double double kr doo */
+
+    /* positioning ko bhi change ki ja sakti hai  */
+
+    /* transform: translate(100px, 500px); */
+
+    /* isme abhi kuch nhi dikhega qki element is property se forward move ho rahi  z direction me , ab isme kuch dikhane ke liye ham game khelte hai perspective ka  */
+
+    /* ye element jaha rakha hua hai uska parent ke upar mujhe perspective set karna padta hai vaha pe mai ye batata hu ki bhaiya ye ke 2d device hai isko ek 3d bana do(3d actual me nhi banega sirf vo visualise way me banega )*/
+    /* transform: translateZ(200px); */
+    /* transform: rotateX(-200px); */
+
+/* rotation hota rahe (ghumta rahe) to uske liye hm kiska use karte hai animation ka ok */
+}
